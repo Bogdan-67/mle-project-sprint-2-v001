@@ -96,221 +96,219 @@ total_area / living_area
 total_area / studio
 PERCENTILE(ceiling_height)
 PERCENTILE(kitchen_area)
-buildings.has_elevator
-buildings.latitude
-buildings.longitude
-buildings.flats_count
-buildings.building_type_int
-buildings.distance_to_center
-buildings.is_historical
-buildings.build_year_binned
-buildings.COUNT(flats)
-buildings.MAX(flats.floor)
-buildings.MAX(flats.floor_rate)
-buildings.MAX(flats.is_first_floor)
-buildings.MAX(flats.is_last_floor)
-buildings.MAX(flats.kitchen_area)
-buildings.MAX(flats.living_area)
-buildings.MAX(flats.rooms)
-buildings.MAX(flats.studio)
-buildings.MAX(flats.total_area)
-buildings.MEAN(flats.floor)
-buildings.MEAN(flats.floor_rate)
-buildings.MEAN(flats.is_first_floor)
-buildings.MEAN(flats.is_last_floor)
-buildings.MEAN(flats.kitchen_area)
-buildings.MEAN(flats.living_area)
-buildings.MEAN(flats.rooms)
-buildings.MEAN(flats.studio)
-buildings.MEAN(flats.total_area)
-buildings.MEDIAN(flats.floor_rate)
-buildings.MEDIAN(flats.is_first_floor)
-buildings.MEDIAN(flats.is_last_floor)
-buildings.MEDIAN(flats.kitchen_area)
-buildings.MEDIAN(flats.living_area)
-buildings.MEDIAN(flats.rooms)
-buildings.MEDIAN(flats.studio)
-buildings.MEDIAN(flats.total_area)
-buildings.MIN(flats.floor)
-buildings.MIN(flats.floor_rate)
-buildings.MIN(flats.is_first_floor)
-buildings.MIN(flats.is_last_floor)
-buildings.MIN(flats.kitchen_area)
-buildings.MIN(flats.living_area)
-buildings.MIN(flats.rooms)
-buildings.MIN(flats.studio)
-buildings.MIN(flats.total_area)
-buildings.MODE(flats.ceiling_group)
-buildings.STD(flats.floor)
-buildings.STD(flats.floor_rate)
-buildings.STD(flats.is_first_floor)
-buildings.STD(flats.is_last_floor)
-buildings.STD(flats.kitchen_area)
-buildings.STD(flats.living_area)
-buildings.STD(flats.rooms)
-buildings.STD(flats.studio)
-buildings.STD(flats.total_area)
-buildings.SUM(flats.floor)
-buildings.SUM(flats.is_first_floor)
-buildings.SUM(flats.is_last_floor)
-buildings.SUM(flats.kitchen_area)
-buildings.SUM(flats.living_area)
-buildings.SUM(flats.studio)
-buildings.DIFF(build_year)
-buildings.DIFF(building_type_int)
-buildings.DIFF(distance_to_center)
-buildings.DIFF(flats_count)
-buildings.DIFF(floors_total)
-buildings.DIFF(is_historical)
-buildings.DIFF(latitude)
-buildings.DIFF(longitude)
-buildings.build_year / building_type_int
-buildings.build_year / distance_to_center
-buildings.build_year / flats_count
-buildings.build_year / is_historical
-buildings.build_year / longitude
-buildings.building_type_int / distance_to_center
-buildings.building_type_int / flats_count
-buildings.building_type_int / floors_total
-buildings.building_type_int / is_historical
-buildings.distance_to_center / building_type_int
-buildings.distance_to_center / flats_count
-buildings.distance_to_center / floors_total
-buildings.distance_to_center / is_historical
-buildings.flats_count / building_type_int
-buildings.flats_count / distance_to_center
-buildings.flats_count / floors_total
-buildings.flats_count / is_historical
-buildings.floors_total / building_type_int
-buildings.floors_total / distance_to_center
-buildings.floors_total / flats_count
-buildings.floors_total / is_historical
-buildings.is_historical / building_type_int
-buildings.is_historical / distance_to_center
-buildings.is_historical / flats_count
-buildings.latitude / building_type_int
-buildings.latitude / is_historical
-buildings.latitude / longitude
-buildings.longitude / building_type_int
-buildings.longitude / is_historical
-buildings.PERCENTILE(distance_to_center)
-buildings.PERCENTILE(flats_count)
-buildings.build_year / is_first_floor
-buildings.build_year / is_last_floor
-buildings.build_year / kitchen_area
-buildings.build_year / living_area
-buildings.build_year / studio
-buildings.building_type_int / floor
-buildings.building_type_int / floor_rate
-buildings.building_type_int / is_first_floor
-buildings.building_type_int / is_last_floor
-buildings.building_type_int / kitchen_area
-buildings.building_type_int / living_area
-buildings.building_type_int / rooms
-buildings.building_type_int / studio
-buildings.building_type_int / total_area
-buildings.distance_to_center / floor
-buildings.distance_to_center / floor_rate
-buildings.distance_to_center / is_first_floor
-buildings.distance_to_center / is_last_floor
-buildings.distance_to_center / kitchen_area
-buildings.distance_to_center / living_area
-buildings.distance_to_center / rooms
-buildings.distance_to_center / studio
-buildings.distance_to_center / total_area
-buildings.flats_count / floor
-buildings.flats_count / floor_rate
-buildings.flats_count / is_first_floor
-buildings.flats_count / is_last_floor
-buildings.flats_count / kitchen_area
-buildings.flats_count / living_area
-buildings.flats_count / rooms
-buildings.flats_count / studio
-buildings.flats_count / total_area
-buildings.floors_total / floor_rate
-buildings.floors_total / is_first_floor
-buildings.floors_total / is_last_floor
-buildings.floors_total / kitchen_area
-buildings.floors_total / living_area
-buildings.floors_total / rooms
-buildings.floors_total / studio
-buildings.floors_total / total_area
-buildings.is_historical / floor
-buildings.is_historical / is_first_floor
-buildings.is_historical / is_last_floor
-buildings.is_historical / kitchen_area
-buildings.is_historical / living_area
-buildings.is_historical / rooms
-buildings.is_historical / studio
-buildings.latitude / is_first_floor
-buildings.latitude / is_last_floor
-buildings.latitude / kitchen_area
-buildings.latitude / living_area
-buildings.latitude / studio
-buildings.longitude / is_first_floor
-buildings.longitude / is_last_floor
-buildings.longitude / kitchen_area
-buildings.longitude / living_area
-buildings.longitude / studio
-ceiling_height / buildings.building_type_int
-ceiling_height / buildings.is_historical
-floor / buildings.building_type_int
-floor / buildings.distance_to_center
-floor / buildings.flats_count
-floor / buildings.is_historical
-floor_rate / buildings.building_type_int
-floor_rate / buildings.distance_to_center
-floor_rate / buildings.flats_count
-floor_rate / buildings.floors_total
-floor_rate / buildings.is_historical
-is_first_floor / buildings.building_type_int
-is_first_floor / buildings.distance_to_center
-is_first_floor / buildings.flats_count
-is_first_floor / buildings.floors_total
-is_first_floor / buildings.is_historical
-is_last_floor / buildings.building_type_int
-is_last_floor / buildings.distance_to_center
-is_last_floor / buildings.flats_count
-is_last_floor / buildings.is_historical
-kitchen_area / buildings.building_type_int
-kitchen_area / buildings.distance_to_center
-kitchen_area / buildings.flats_count
-kitchen_area / buildings.floors_total
-kitchen_area / buildings.is_historical
-living_area / buildings.building_type_int
-living_area / buildings.distance_to_center
-living_area / buildings.flats_count
-living_area / buildings.floors_total
-living_area / buildings.is_historical
-rooms / buildings.building_type_int
-rooms / buildings.distance_to_center
-rooms / buildings.floors_total
-rooms / buildings.is_historical
-studio / buildings.building_type_int
-studio / buildings.distance_to_center
-studio / buildings.flats_count
-studio / buildings.floors_total
-studio / buildings.is_historical
-total_area / buildings.building_type_int
-total_area / buildings.distance_to_center
-total_area / buildings.floors_total
-total_area / buildings.is_historical
-build_year
-distance_to_center
-floors_total
+has_elevator
+latitude
+longitude
 flats_count
-log(floor)/floor
+building_type_int
+distance_to_center
+is_historical
+build_year_binned
+COUNT(flats)
+MAX(flats.floor)
+MAX(flats.floor_rate)
+MAX(flats.is_first_floor)
+MAX(flats.is_last_floor)
+MAX(flats.kitchen_area)
+MAX(flats.living_area)
+MAX(flats.rooms)
+MAX(flats.studio)
+MAX(flats.total_area)
+MEAN(flats.floor)
+MEAN(flats.floor_rate)
+MEAN(flats.is_first_floor)
+MEAN(flats.is_last_floor)
+MEAN(flats.kitchen_area)
+MEAN(flats.living_area)
+MEAN(flats.rooms)
+MEAN(flats.studio)
+MEAN(flats.total_area)
+MEDIAN(flats.floor_rate)
+MEDIAN(flats.is_first_floor)
+MEDIAN(flats.is_last_floor)
+MEDIAN(flats.kitchen_area)
+MEDIAN(flats.living_area)
+MEDIAN(flats.rooms)
+MEDIAN(flats.studio)
+MEDIAN(flats.total_area)
+MIN(flats.floor)
+MIN(flats.floor_rate)
+MIN(flats.is_first_floor)
+MIN(flats.is_last_floor)
+MIN(flats.kitchen_area)
+MIN(flats.living_area)
+MIN(flats.rooms)
+MIN(flats.studio)
+MIN(flats.total_area)
+MODE(flats.ceiling_group)
+STD(flats.floor)
+STD(flats.floor_rate)
+STD(flats.is_first_floor)
+STD(flats.is_last_floor)
+STD(flats.kitchen_area)
+STD(flats.living_area)
+STD(flats.rooms)
+STD(flats.studio)
+STD(flats.total_area)
+SUM(flats.floor)
+SUM(flats.floor_rate)
+SUM(flats.is_first_floor)
+SUM(flats.is_last_floor)
+SUM(flats.kitchen_area)
+SUM(flats.living_area)
+SUM(flats.studio)
+DIFF(build_year)
+DIFF(building_type_int)
+DIFF(distance_to_center)
+DIFF(flats_count)
+DIFF(floors_total)
+DIFF(is_historical)
+DIFF(latitude)
+DIFF(longitude)
+build_year / building_type_int
+build_year / distance_to_center
+build_year / flats_count
+build_year / is_historical
+build_year / longitude
+building_type_int / distance_to_center
+building_type_int / flats_count
+building_type_int / floors_total
+building_type_int / is_historical
+distance_to_center / building_type_int
+distance_to_center / flats_count
+distance_to_center / floors_total
+distance_to_center / is_historical
+flats_count / building_type_int
+flats_count / distance_to_center
+flats_count / floors_total
+flats_count / is_historical
+floors_total / building_type_int
+floors_total / distance_to_center
+floors_total / flats_count
+floors_total / is_historical
+is_historical / building_type_int
+is_historical / distance_to_center
+is_historical / flats_count
+latitude / building_type_int
+latitude / is_historical
+latitude / longitude
+longitude / building_type_int
+longitude / is_historical
+PERCENTILE(distance_to_center)
+PERCENTILE(flats_count)
+build_year / is_first_floor
+build_year / is_last_floor
+build_year / kitchen_area
+build_year / living_area
+build_year / studio
+building_type_int / floor
+building_type_int / floor_rate
+building_type_int / is_first_floor
+building_type_int / is_last_floor
+building_type_int / kitchen_area
+building_type_int / living_area
+building_type_int / rooms
+building_type_int / studio
+building_type_int / total_area
+distance_to_center / floor
+distance_to_center / floor_rate
+distance_to_center / is_first_floor
+distance_to_center / is_last_floor
+distance_to_center / kitchen_area
+distance_to_center / living_area
+distance_to_center / rooms
+distance_to_center / studio
+distance_to_center / total_area
+flats_count / floor
+flats_count / floor_rate
+flats_count / is_first_floor
+flats_count / is_last_floor
+flats_count / kitchen_area
+flats_count / living_area
+flats_count / rooms
+flats_count / studio
+flats_count / total_area
+floors_total / floor_rate
+floors_total / is_first_floor
+floors_total / is_last_floor
+floors_total / kitchen_area
+floors_total / living_area
+floors_total / rooms
+floors_total / studio
+floors_total / total_area
+is_historical / floor
+is_historical / is_first_floor
+is_historical / is_last_floor
+is_historical / kitchen_area
+is_historical / living_area
+is_historical / rooms
+is_historical / studio
+latitude / is_first_floor
+latitude / is_last_floor
+latitude / kitchen_area
+latitude / living_area
+latitude / studio
+longitude / is_first_floor
+longitude / is_last_floor
+longitude / kitchen_area
+longitude / living_area
+longitude / studio
+ceiling_height / building_type_int
+ceiling_height / is_historical
+floor / building_type_int
+floor / distance_to_center
+floor / flats_count
+floor / is_historical
+floor_rate / building_type_int
+floor_rate / distance_to_center
+floor_rate / flats_count
+floor_rate / floors_total
+floor_rate / is_historical
+is_first_floor / building_type_int
+is_first_floor / distance_to_center
+is_first_floor / flats_count
+is_first_floor / floors_total
+is_first_floor / is_historical
+is_last_floor / building_type_int
+is_last_floor / distance_to_center
+is_last_floor / flats_count
+is_last_floor / is_historical
+kitchen_area / building_type_int
+kitchen_area / distance_to_center
+kitchen_area / flats_count
+kitchen_area / floors_total
+kitchen_area / is_historical
+living_area / building_type_int
+living_area / distance_to_center
+living_area / flats_count
+living_area / floors_total
+living_area / is_historical
+rooms / building_type_int
+rooms / distance_to_center
+rooms / flats_count
+rooms / floors_total
+rooms / is_historical
+studio / building_type_int
+studio / distance_to_center
+studio / flats_count
+studio / floors_total
+studio / is_historical
+total_area / building_type_int
+total_area / distance_to_center
+total_area / floors_total
+total_area / is_historical
+build_year
+floors_total
+distance_to_center*total_area
 ceiling_height*log(total_area)
 distance_to_center*floors_total
-distance_to_center*total_area
-total_area*(kitchen_area + 1)
-1/(distance_to_center*flats_count)
-log(floor)/floors_total
-log(floor)/distance_to_center
 log(ceiling_height)/ceiling_height
-total_area/floor
-floors_total*rooms
+sqrt(flats_count)/distance_to_center
+log(floor)/floor
 floors_total*log(floor)
 total_area/distance_to_center
-sqrt(kitchen_area)*sqrt(living_area)
-distance_to_center*flats_count
+total_area*(kitchen_area + 1)
+total_area*log(floors_total)
+1/(distance_to_center*flats_count)
+kitchen_area*log(rooms)
+distance_to_center*log(floor)
