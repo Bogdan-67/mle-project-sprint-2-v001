@@ -61,6 +61,12 @@ DB_DESTINATION_NAME=your_db_name
 DB_DESTINATION_USER=your_db_user
 DB_DESTINATION_PASSWORD=your_db_password
 
+# S3
+S3_BUCKET_NAME=your_s3_bucket_name
+AWS_ACCESS_KEY_ID=your_aws_access_key_id
+AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
+MLFLOW_S3_ENDPOINT_URL=your_mlflow_s3_endpoint_url
+
 # MLflow configuration
 TRACKING_SERVER_HOST=your_mlflow_host
 TRACKING_SERVER_PORT=your_mlflow_port
