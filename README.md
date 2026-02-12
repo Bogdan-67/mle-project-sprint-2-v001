@@ -74,6 +74,10 @@ EXPERIMENT_NAME=real_estate_prices
 ```
 
 ### 5. Запуск
+Запустите MLflow Tracking Server:
+```bash
+export $(cat .env | xargs) && sh mlflow_server/run_mlflow_server.sh
+```
 Запустите Jupyter Notebook или конвертированный скрипт для выполнения пайплайна обучения:
 
 ```bash
